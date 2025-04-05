@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Face Register and Detect</title>
+</head>
+<body>
+    <h1>Face Recognition System</h1>
+
+    <form action="/register" method="post">
+        <h2>Register</h2>
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br>
+        <label>Age:</label><br>
+        <input type="number" name="age" required><br><br>
+        <button type="submit">Register with Webcam</button>
+    </form>
+
+    <hr>
+
+    <form action="/detect" method="post">
+        <h2>Detect</h2>
+        <button type="submit">Detect Face from Webcam</button>
+    </form>
+</body>
+</html>
